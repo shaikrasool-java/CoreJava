@@ -1,0 +1,17 @@
+package com.java.loops;
+
+public class I {
+
+	public static void main(String[] args) {
+
+
+		int i;
+		for(i=5;i>0;i--){
+			System.out.println("loop..."+i);
+			System.out.println("main..."+i);
+		}
+		
+		System.out.println("main end....");
+	}
+
+}
