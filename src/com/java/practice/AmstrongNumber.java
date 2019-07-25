@@ -6,27 +6,26 @@ public class AmstrongNumber {
 
 	public static void main(String[] args) {
 
-		int n, sum=0, temp, r;
-		Scanner sc=new Scanner(System.in);
+		int n, sum = 0, temp, r;
+		Scanner sc = new Scanner(System.in);
 		System.out.println("enter the numeber: ");
-		n=sc.nextInt();
+		n = sc.nextInt();
 
-		temp=n;
-		while(temp>0){
-			r=temp%10;
-			System.out.println("r value: "+r);
-			sum= sum+r*r*r;
-			System.out.println("sum of the number: "+sum);
-			temp=temp/10;
+		temp = n;
+		while (temp > 0) {
+			r = temp % 10;
+			System.out.println("r value: " + r);
+			sum = sum + r * r * r;
+			System.out.println("sum of the number: " + sum);
+			temp = temp / 10;
 		}
 
-		if(n==sum){
-			System.out.println("this number is Amstrong"+n);
-		}
-		else{
+		if (n == sum) {
+			System.out.println("this number is Amstrong " + n);
+		} else {
 			System.out.println("given number is not amstrong");
 		}
 		sc.close();
-		
+
 	}
 }

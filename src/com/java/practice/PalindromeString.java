@@ -3,9 +3,7 @@ package com.java.practice;
 import java.util.Scanner;
 
 public class PalindromeString {
-
 	public static void main(String[] args) {
-		
 		String str, rev="";
 		Scanner sc=new Scanner(System.in);
 		System.out.println("entre the string...");
@@ -17,7 +15,7 @@ public class PalindromeString {
 			System.out.println("revers string: "+ rev);
 		}
 		if(str.equals(rev)){
-			System.out.println("output string is: "+str+" "+rev);
+			System.out.println("output string is: "+str+"||"+rev);
 			System.out.println("given string is palindrome");
 		}
 		else{
